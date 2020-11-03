@@ -1,0 +1,15 @@
+import React from 'react';
+import './Home.css';
+
+export default () => {
+    return (
+        <React.Fragment>
+            <div className="page">
+                <div className="heading">Chart Maker</div>
+                <div className="body">
+                    There you go - a free chart maker that finally lets you make attractive data visualizations for free!
+                </div>
+            </div>
+        </React.Fragment>
+    )
+}
