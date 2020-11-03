@@ -13,9 +13,18 @@
     font-weight: 300;
 }
 
+.body{
+    color: white;
+    font-weight: 300;
+}
+
 @media screen and (min-width: 320px){
     .heading{
         font-size: 55px;
+    }
+    .body{
+        padding: 0px 20px;
+        font-size: 20px;
     }
 }
 

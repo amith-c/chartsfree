@@ -9,6 +9,7 @@ export default () => {
                 <div className="body">
                     There you go - a free chart maker that finally lets you make attractive data visualizations for free!
                 </div>
+                <button className="button">Get Started</button>
             </div>
         </React.Fragment>
     )
