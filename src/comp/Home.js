@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 
-export default () => {
+const Home = () => {
     return (
         <React.Fragment>
             <div className="page">
@@ -14,3 +14,5 @@ export default () => {
         </React.Fragment>
     )
 }
+
+export default Home;
