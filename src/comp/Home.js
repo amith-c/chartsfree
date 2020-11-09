@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 
 const Home = () => {
+
+    useEffect(() => {
+        document.title = 'Chart Maker';
+    }, []);
+
     return (
         <React.Fragment>
             <div className="page">
